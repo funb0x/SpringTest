@@ -1,0 +1,15 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.funbox.st</groupId>
+    <artifactId>SpringTest</artifactId>
+    <version>1</version>
+   
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.5.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>
