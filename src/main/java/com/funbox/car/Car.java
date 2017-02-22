@@ -2,7 +2,6 @@ package com.funbox.car;
 
 import com.funbox.chassis.Chassis;
 import com.funbox.motor.Motor;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Created by Анна on 18.02.2017.
