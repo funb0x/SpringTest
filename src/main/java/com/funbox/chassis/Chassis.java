@@ -5,7 +5,7 @@ package com.funbox.chassis;
  */
 public interface Chassis {
 
-    void ride();
+    String ride(int speed);
 
 
 }
