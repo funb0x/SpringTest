@@ -6,7 +6,6 @@ import com.funbox.chassis.Chassis;
 import com.funbox.chassis.impl.WheelChassis;
 import com.funbox.motor.Motor;
 import com.funbox.motor.impl.ElectricMotor;
-import com.funbox.mvc.UrlHandlers;
 import org.springframework.context.annotation.*;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Created by Анна on 26.02.2017.
  */
 @Controller
-public class UrlHandlers {
+public class HomeController {
 
     @Autowired
     private Car car;
