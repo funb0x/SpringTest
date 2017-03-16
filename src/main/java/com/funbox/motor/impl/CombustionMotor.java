@@ -18,4 +18,8 @@ public class CombustionMotor implements Motor {
     public void torque() {
         System.out.println("Combustion Motor. Instance " + instances.get());
     }
+
+    public int getFuelConsumptionForDistance(int km) {
+        return km * 10;
+    }
 }

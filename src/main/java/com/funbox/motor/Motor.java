@@ -7,4 +7,6 @@ public interface Motor {
 
     void torque();
 
+    int getFuelConsumptionForDistance(int km);
+
 }

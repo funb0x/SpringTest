@@ -3,6 +3,7 @@ package com.funbox.car;
 import com.funbox.chassis.Chassis;
 import com.funbox.motor.Motor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 
 /**
  * Created by Анна on 18.02.2017.
@@ -24,5 +25,10 @@ public class Car {
     public void move() {
         motor.torque();
         chassis.ride(10);
+    }
+
+    @Cacheable(value = "engine")
+    public int getFuelConsumptionForDistance(int km) {
+        return motor.getFuelConsumptionForDistance(km);
     }
 }

@@ -18,4 +18,8 @@ public class ElectricMotor implements Motor {
     public void torque() {
         System.out.println("Electric motor. instance " + instances.get());
     }
+
+    public int getFuelConsumptionForDistance(int km) {
+        return 0;
+    }
 }
