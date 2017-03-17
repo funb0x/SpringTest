@@ -2,6 +2,7 @@ package com.funbox.web;
 
 import com.funbox.app.AppConfig;
 import com.funbox.security.SecurityConfig;
+import com.funbox.soket.WebSocketConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.MultipartConfigElement;
@@ -22,7 +23,7 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
     }
 
     protected Class<?>[] getRootConfigClasses() {
-        return new Class<?>[] {AppConfig.class, SecurityConfig.class};
+        return new Class<?>[] {AppConfig.class, SecurityConfig.class, WebSocketConfig.class};
     }
 
     protected Class<?>[] getServletConfigClasses() {
